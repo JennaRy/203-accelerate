@@ -1,0 +1,120 @@
+/*
+Theme Name:   Accelerate Theme Child
+Theme URI:    http://example.com/accelerate-theme-child/
+Description:  Accelerate Child Theme - Accelerate
+Author:   	Your Name!
+Author URI:   http://example.com
+Template: 	accelerate-theme
+Version:      2.0.0
+Tags:     	light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+Text Domain:  accelerate-theme-child
+*/
+
+
+/****** NAV TOP ******/
+#masthead {
+    background: none repeat scroll 0 0 #0780de;
+}
+/***** HOMEPAGE *****/
+.home-page {
+    background: url("img/taxi-photo.jpg") no-repeat scroll right center / cover rgba(0, 0, 0, 0);
+}
+.button {
+    background: linear-gradient(to right, #00cfff , #0780de);
+    border-radius: 5px;
+}
+/* featured work on homepage */
+.featured-work {
+    width:100%;
+}
+.featured-work h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-align: center;
+    text-transform: uppercase;
+}
+ul.homepage-featured-work {
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+}
+.homepage-featured-work h3 {
+    color: #3b3b3b;
+    text-align: center;
+    text-transform: capitalize;
+}
+li.individual-featured-work {
+    float: left;
+    padding-right: 20px;
+    width: 33.3%;
+}
+/* blog post on homepage */
+.blog-post {
+    width: 50%;
+    clear: both;
+	float: left;
+	margin-bottom: 2em;
+}
+.blog-post h4 {
+    font: 700 1em/1.75 'Montserrat', 'Open Sans', Arial, sans-serif;
+    color: #a6a6a6;
+    text-transform: uppercase;
+    margin: 2em 0 .5em;
+}
+.blog-post h3 {
+	font-size: 1.5em;
+}
+.read-more-link {
+	font-family: 'Montserrat';
+	font-weight: 700;
+	color: #0780de;
+	text-transform: uppercase;
+}
+
+/***** CASE STUDY PAGE *****/
+aside.case-study-sidebar {
+    float: left;
+    width: 300px;
+}
+
+div.case-study-images img {
+    float: right;
+    height: auto;
+    width: 650px;
+}
+
+/* FOOTER STYLES */
+.social-media-menu ul {
+    border-radius: 50%;
+    display: inline-block;
+    list-style: none;
+    width: 50px;
+}
+#menu-social-media-nav {
+    display: inline-block;
+    list-style: none;
+}
+
+
+/* <a> elements with same href */
+/* a[href*="social-media-navigation"] {
+    border-radius: 50%;
+    display: inline-block;
+    list-style: none;
+    width: 50px;
+  }*/
+/* Text meant only for screen readers. */
+/*
+.screen-reader-text {
+    border: 0;
+    clip: rect(1px, 1px, 1px, 1px);
+    clip-path: inset(50%);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute !important;
+    width: 1px;
+    word-wrap: normal !important;
+  }*/
+/* End FOOTER STYLES */
